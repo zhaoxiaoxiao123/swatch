@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  body>ul>li>ul{
+  /* 如果只做单纯的显示，就这个：display:none; */
+  height:0;
+  overflow:hidden;
+  transition:all .5s linear;
+}
+
+body>ul>li:hover>ul{
+  /* 如果只做单纯的显示，就这个：display:block; */
+  height:auto;
+}
+
+  </style>
+</head>
+<body>
+  <ul>
+  <li>客户服务
+    <ul>
+      <li>客户
+        <ul>
+          <li>帮助中心</li>
+          <li>在线客服</li>
+          <li>电话客服</li>
+          <li>金融咨询</li>
+        </ul>
+      </li>
+      <li>商户
+        <ul>
+          <li>合作招商</li>
+          <li>商家后台</li>
+          <li>商家帮助</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div style="color:brown">
+  <a href="">111111111111111</a>
+  <!-- <div > -->
+  <span style="display:inline-block;width:100px;height:40px;vertical-align: middle;background-color:chocolate" href="javasript:;" >一探究竟</span>
+  <!-- </div> -->
+</div>
+</body>
+</html>

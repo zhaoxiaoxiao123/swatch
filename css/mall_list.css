@@ -1,0 +1,43 @@
+/* .content>.left{
+  padding:30px 10px 20px 40px;
+}
+.content>.right .product-item{
+  padding:20px 20px 60px;
+} */
+.content>.left .product-set{
+  padding:30px 15px;
+  
+}
+.content>.right .product-item{
+  padding:0 15px;
+  margin-bottom:30px;
+  height:400px;
+}
+.content>.right .product-item-info{
+  padding:30px;
+}
+.content>.right .product-item-info1{
+  padding:20px 20px 60px;
+}
+
+.open+ul{
+  display:block;
+}
+
+.list{ 
+  display: none;
+}
+
+ol li a {
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+ol li{
+  display:inline-block;
+  margin:8.5px 10px 8.5px 0;
+}
